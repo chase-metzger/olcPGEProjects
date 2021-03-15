@@ -1,1 +1,3 @@
-./bins/$(git branch --show-current)
+cd ./bins
+./$(git branch --show-current)
+cd ..
